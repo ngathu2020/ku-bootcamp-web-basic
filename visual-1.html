@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Project Visualization</title>
+  <link rel="stylesheet" href="./css/homework.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <!-- nav bar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li class="navbar-head"><a href="index.html">Latitude</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="visual-1.html">Max Temperature</a></li>
+            <li><a href="visual-2.html">Humidity</a></li>
+            <li><a href="visual-3.html">Cloudiness</a></li>
+            <li><a href="visual-4.html">Wind Speed</a></li>
+          </ul>
+        </li>
+        <li><a href="comparison.html">Comparison</a></li>
+        <li><a href="data.html">Data</a></li>
+      </ul>
+    </div>
+  </nav>
+    
+  <!-- content box -->
+  <div class="box">
+    <div class="col-md-8">
+      <div class="box-left">
+        <h1 class="h1-top">Max Temperature</h1>
+        <hr>
+        <div class="box-small">
+          <img class="img-full" src="./output_data/Fig1.png" alt="Latitude vs. Max Temperature"/>
+        </div>  
+        <article class="post">
+          <p><br>
+              As expected, the weather becomes significantly warmer as one
+              approaches the equator (0 degree latitude). However, the southern
+              hemisphere tends to be warmer this time of year than the northern
+              hemisphere. This may be due to the tilt of the earth at the time 
+              of year when data was gathered. Temperatures drop the further an 
+              area is from the equator due to the curvature of the earth.
+          </p>
+        </article>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="box-right">
+        <h1 class="h1-top">Visualizations</h1>
+        <hr>
+        <a href="visual-1.html">
+          <img class="img-small" src="./output_data/Fig1.png" alt="Latitude vs. Max Temperature"/>
+        </a>  
+        <a href="visual-2.html">
+            <img class="img-small" src="./output_data/Fig2.png" alt="Latitude vs. Humidity"/>
+        </a>  
+        <a href="visual-3.html">
+            <img class="img-small" src="./output_data/Fig3.png" alt="Latitude vs. Cloudiness"/>
+        </a>  
+        <a href="visual-4.html">
+            <img class="img-small" src="./output_data/Fig4.png" alt="Latitude vs. Wind Speed"/>
+        </a>  
+    </div>
+    </div>
+  </div>
+
+  <hr class="hr-last">
+
+  <!-- footer -->
+  <footer>
+    <span>
+        &copy; Copyright Coding Bootcamp 2018
+    </span>
+  </footer>
+</body>
+
+
+
+
+  
